@@ -3,7 +3,7 @@ const { TOKEN_PROGRAM_ID } = require('@solana/spl-token');
 
 async function getTokenHolderCount(tokenMintAddress) {
   // Connect to Solana network (replace with your preferred RPC endpoint)
-  const connection = new Connection('https://serene-autumn-shape.solana-mainnet.quiknode.pro/fb3256e1455d0f9b56753ffc0e95a5d2b4e79817', 'confirmed');
+  const connection = new Connection('', 'confirmed');
 
   try {
     // Get all token accounts for this mint

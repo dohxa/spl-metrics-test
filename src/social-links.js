@@ -2,7 +2,7 @@ const { Connection, PublicKey } = require('@solana/web3.js');
 const { Metaplex } = require('@metaplex-foundation/js');
 
 async function getTokenSocialLinks(tokenMintAddress) {
-  const connection = new Connection('https://serene-autumn-shape.solana-mainnet.quiknode.pro/fb3256e1455d0f9b56753ffc0e95a5d2b4e79817');
+  const connection = new Connection('');
   const metaplex = new Metaplex(connection);
 
   try {
